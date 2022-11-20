@@ -1,0 +1,48 @@
+<!--
+ * @Date: 2022-05-17 10:00:48
+ * @LastEditors: Yaowen Liu
+ * @LastEditTime: 2022-11-19 10:28:57
+ * @FilePath: /fabric-renderer-js/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      .container {
+        width: min-content;
+        margin: 0 auto;
+        padding-top: 100px;
+      }
+      button {
+        padding: 0 10px;
+        height: 30px;
+        margin: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas"></canvas>
+      <div>
+        <button id="imageButton">+附件</button>
+        <button id="avatarButton">+头像</button>
+        <button id="virtualButton">+虚拟</button>
+        <button id="bgButton">+背景</button>
+        <button id="overButton">+遮盖</button>
+        <button id="textButton">+文字</button>
+        <button id="rectButton">+矩形</button>
+        <button id="svgButton">+SVG</button>
+        <button id="toJSON">序列化</button>
+        <button id="toDataURL">生成图片</button>
+        <button id="scaleUp">放大</button>
+        <button id="scaleDown">缩小</button>
+        <button id="brightness">brightness</button>
+      </div>
+    </div>
+    <script type="module" src="/lib/main.js"></script>
+  </body>
+</html>
